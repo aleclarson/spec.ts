@@ -43,3 +43,9 @@ export const assert: <Left, Right>(
  * Placeholder value followed by "as T"
  */
 export const _: any;
+
+/** The "it" of spec.ts */
+export const test: (name: string, fn: () => void) => void;
+
+/** The "describe" of spec.ts */
+export const group: (name: string, fn: () => void) => void;
