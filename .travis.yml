@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+    - "node"
+env:
+    - NODE_ENV=TEST
+cache:
+    yarn: true
+    directories:
+        - "node_modules"
+script:
+    - yarn test
+jobs:
+    include:
+        - stage: deploy
+          if: branch == master && !fork
+          node_js: "8.9.1" # pre-installed version
+          script:
+              - yarn build
+              - yarn global add semantic-release@^15
+              - semantic-release

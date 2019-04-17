@@ -1,5 +1,7 @@
 # spec.ts
 
+[![Build Status](https://travis-ci.org/aleclarson/spec.ts.svg?branch=master)](https://travis-ci.org/aleclarson/spec.ts)
+
 Write tests for your types!
 
 ```ts
