@@ -12,4 +12,5 @@ assert(foo, bar);
 assert(foo, _ as ExpectedType);
 ```
 
+- [Usage from CLI](https://github.com/aleclarson/spec.ts/wiki/Usage-from-CLI)
 - [Usage with Jest](https://github.com/aleclarson/spec.ts/wiki/Usage-with-Jest)
