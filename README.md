@@ -1,6 +1,6 @@
 # spec.ts
 
-[![Build Status](https://travis-ci.org/aleclarson/spec.ts.svg?branch=master)](https://travis-ci.org/aleclarson/spec.ts)
+[![npm](https://img.shields.io/npm/v/spec.ts.svg)](https://www.npmjs.com/package/spec.ts) [![Build Status](https://travis-ci.org/aleclarson/spec.ts.svg?branch=master)](https://travis-ci.org/aleclarson/spec.ts)
 
 Write tests for your types!
 
