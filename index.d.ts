@@ -45,9 +45,10 @@ export const assert: <Left, Right>(
 export const _: any;
 
 /** Same as "it" */
-export const test:
-  | ((fn: () => void) => void)
-  | ((name?: string, fn?: () => void) => void);
+export const test: {
+  (fn: () => void): void;
+  (name?: string, fn?: () => void): void;
+};
 
 /** The "it" of spec.ts */
 export const it: typeof test;
